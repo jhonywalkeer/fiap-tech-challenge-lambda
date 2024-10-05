@@ -1,0 +1,24 @@
+{
+  "name": "lambda",
+  "version": "1.0.0",
+  "description": "Lambda para autenticação no dynamoDb",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.134",
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^20.11.24"
+  },
+  "dependencies": {
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1569.0",
+    "bcrypt": "^5.1.1",
+    "typescript": "^5.3.3"
+  }
+}
